@@ -1,0 +1,67 @@
+#titulo-principal {
+    color: #0056b3;
+}
+
+.parrafo-destacado {
+    font-weight: bold;
+    color: #555;
+}
+
+p {
+    font-size: 18px;
+}
+
+.tarjeta-producto {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.tarjeta-producto img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Verdana, sans-serif;
+}
+
+nav#menu-principal a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --color-primario: #d9534f;
+    --color-texto-claro: #ffffff;
+    --fuente-titulos: 'Georgia', serif;
+}
+
+.boton-cancelar {
+    background-color: var(--color-primario);
+    color: var(--color-texto-claro);
+}
+
+.titulo-seccion {
+    /* Se corrigieron los nombres de las variables para que coincidan con :root */
+    font-family: var(--fuente-titulos);
+    color: var(--color-primario);
+}
+
+.articulo p {
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.hero-banner {
+    /* Se agregó el punto y coma y se separó el color del degradado */
+    background-image: linear-gradient(to bottom right, #2c3e50, #3498db);
+    color: #fff;
+    /* Se agregaron unidades (px) y puntos y coma faltantes */
+    padding: 80px 80px 80px 80px;
+    border-radius: 10px 10px 10px 10px;
+}
